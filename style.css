@@ -35,15 +35,10 @@ ol, ul {
 
 * {
     background-color: #000000;
-}
-
-figure {
-    color: #ffffff;
-	position: absolute;
-	top: 10px;
-}
-
-p {
 	color: #ffffff;
 }
 
+.sidebar {
+	position: absolute;
+	top: 10%;
+}
