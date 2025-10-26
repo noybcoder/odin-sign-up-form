@@ -10,7 +10,6 @@
 
 body {
 	font-family: sans-serif;
-	line-height: 1;
 	display: flex;
 	flex-direction: row-reverse;
 	margin: 0 2.5vw;
@@ -95,6 +94,11 @@ section:not(.info) {
 	background-color: #ffffff;
 	border: none;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+	padding-bottom: 2vh;
+}
+
+button[type="submit"] {
+	color: #ffffff;
 }
 
 legend {
@@ -106,9 +110,15 @@ legend {
 .fields {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 45%;
+}
+
+label {
+	font-size: 0.8rem;
 }
 
 input {
-	width: 85%;
+	width: 70%;
+	height: 3vh;
+	padding-inline: 0.5vw;
 }
