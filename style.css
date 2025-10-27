@@ -97,7 +97,8 @@ section:not(.info) {
 	background-color: var(--white-color);
 	border: none;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-	padding-bottom: 2vh;
+	padding-top: 2vh;
+	padding-bottom: 4vh;
 }
 
 .account {
@@ -112,12 +113,18 @@ section:not(.info) {
 button[type="submit"] {
 	color: var(--white-color);
 	background-color: var(--button-color);
-	padding: 2vh 4vw;
+	padding: 2vh 3.5vw;
 	margin-bottom: 3vh;
 	font-size: 1rem;
 	font-weight: bold;
 	border: none;
 	border-radius: 8px;
+}
+
+button[type="submit"]:hover {
+	color: var(--button-color);
+	background-color: var(--white-color);
+	outline: 3px solid var(--button-color);
 }
 
 legend {
@@ -138,6 +145,16 @@ label {
 
 input {
 	width: 70%;
-	height: 3vh;
+	height: 4vh;
 	padding-inline: 0.5vw;
+	border-radius: 5px;
+	border: 1px solid #E5E7EB;
+}
+
+input:focus {
+	outline: 1px solid #6F74E0;
+}
+
+input:user-invalid {
+	outline: 1px solid #CD7274;
 }
