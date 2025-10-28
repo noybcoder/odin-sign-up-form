@@ -158,3 +158,9 @@ input:focus {
 input:user-invalid {
 	outline: 1px solid #CD7274;
 }
+
+@media screen and (max-width: 500px) {
+	.background > img {
+		height: 110vh;
+	}
+}
